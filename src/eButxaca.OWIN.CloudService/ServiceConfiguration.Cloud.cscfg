@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="eButxaca.OWIN.CloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-01.2.3">
+  <Role name="eButxaca.OWIN.WorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=ebutxaca;AccountKey=v8LgN6PKIJPyyO5LVancjNWbrjk1Yj+cpwIfurwP7RhIEf7P1mIMRziP8km8ZwlM5xJxBJL5W6Ku/sDKcs6srQ==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
